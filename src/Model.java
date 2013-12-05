@@ -17,7 +17,7 @@ public class Model extends JFrame {
 
 	private JPanel contentPane;
 	private JTable table;
-	Object rowData[][] = { { "Row1-Column1", "Row1-Column2", "Row1-Column3", "5" },
+	Object rowData[][] = { { "1", "Avicii", "House", "5" },
 							{ "Row2-Column1", "Row2-Column2", "Row2-Column3", "5" },
 							{ "Row2-Column1", "Row2-Column2", "Row2-Column3", "5" },
 							{ "Row2-Column1", "Row2-Column2", "Row2-Column3", "5" },
@@ -31,6 +31,7 @@ public class Model extends JFrame {
 							{ "Row2-Column1", "Row2-Column2", "Row2-Column3", "5" },
 							{ "Row2-Column1", "Row2-Column2", "Row2-Column3", "5" },
 							{ "Row2-Column1", "Row2-Column2", "Row2-Column3", "5" } };
+	
 	Object columnNames[] = { "id", "Artist", "Genre", "Rating" };
 	/**
 	 * Launch the application.
